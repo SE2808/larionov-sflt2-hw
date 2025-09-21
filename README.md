@@ -58,7 +58,7 @@ sudo haproxy -c -f /etc/haproxy/haproxy.cfg
 <img src="img/image3.png" alt="Перенаправление запросов на разные серверы при обращении к HAProxy" width="800"/>
 Скриншот: «Перенаправление запросов на разные серверы при обращении к HAProxy».
 
-## Ссылка на файл в Google Docs
+### Ссылка на файл в Google Docs
 [Файл haproxy.cfg](https://drive.google.com/file/d/1v742YhVI5kbIJfQRN8hlgx7j5pxXF4Jr/view?usp=drive_link)
 
 ---
@@ -112,7 +112,7 @@ HAProxy TCP балансировка (порт 1325):
 <img src="img/image5.png" alt="Перенаправление запросов на разные серверы при обращении к HAProxy" width="800"/>
 Скриншот: «Перенаправление запросов на разные серверы при обращении к HAProxy».
 
-## Ссылка на файл в Google Docs
+### Ссылка на файл в Google Docs
 [Файл haproxy.cfg](https://drive.google.com/file/d/1axLWRGplbUYwVGEkb6v4IQ5QxpPsLhzX/view?usp=drive_link)
 
 ---
