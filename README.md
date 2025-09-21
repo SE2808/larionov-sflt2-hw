@@ -22,6 +22,7 @@
 # Тестирование серверов
 curl http://localhost:8888
 curl http://localhost:9999
+```
 
 # Тестирование Nginx балансировки
 curl -H 'Host: example-http.com' http://localhost
@@ -68,10 +69,14 @@ sudo haproxy -c -f /etc/haproxy/haproxy.cfg
 mkdir http3
 echo "Server 3 :9000" > ~/http3/index.html
 python3 -m http.server 9000 --bind 0.0.0.0
-2.Открыт порт 9000 в UFW.    
+```
+
+2.Открыт порт 9000 в UFW. 
 ```bash
 sudo ufw allow 9000
 sudo ufw reload
+```
+
 3.Добавлен сервер в конфигурации:
   +В Nginx (/etc/nginx/include/upstream.inc)
   +В HAProxy (/etc/haproxy/haproxy.cfg).    
